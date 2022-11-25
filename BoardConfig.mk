@@ -50,3 +50,25 @@ TW_MAX_BRIGHTNESS := 2047
 
 TW_H_OFFSET := -60
 TW_Y_OFFSET := 60
+
+#SHRP-specific lines
+SHRP_PATH := device/xiaomi/mi439
+SHRP_MAINTAINER := rxuglr
+SHRP_DEVICE_CODE := pine
+SHRP_OFFICIAL := true
+SHRP_EDL_MODE := 1
+SHRP_INTERNAL := /sdcard
+SHRP_EXTERNAL := /sdcard1
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_FLASH_MAX_BRIGHTNESS := 255
+SHRP_REC_TYPE := SAR
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_DEVICE_TYPE := A_Only
+SHRP_EXPRESS := true
+SHRP_EXPRESS_USE_DATA := true
+SHRP_DARK := true
+
+#SHRP Addons
+SHRP_SKIP_DEFAULT_ADDON_1 := true
+SHRP_SKIP_DEFAULT_ADDON_2:= true
