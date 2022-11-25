@@ -54,7 +54,7 @@ TW_Y_OFFSET := 60
 #SHRP-specific lines
 SHRP_PATH := device/xiaomi/mi439
 SHRP_MAINTAINER := rxuglr
-SHRP_DEVICE_CODE := pine
+SHRP_DEVICE_CODE := mi439
 SHRP_OFFICIAL := true
 SHRP_EDL_MODE := 1
 SHRP_INTERNAL := /sdcard
